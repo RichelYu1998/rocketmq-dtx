@@ -31,3 +31,8 @@ logging:
 
 ribbon:
   ReadTimeout: 10000
+
+rocketmq:
+  name-server: 192.168.64.141:9876
+  producer:
+    group: order-group

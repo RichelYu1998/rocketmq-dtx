@@ -13,7 +13,7 @@ services:
     volumes:
       - './db1/mysql:/etc/mysql/conf.d'
       - './db1/mysql/data:/var/lib/mysql'
-  easy_id_generator_db2:
+  easy_id_generator_db2:=
     image: 'mysql:5.7'
     container_name: 'easy_id_generator_db2'
     environment:
