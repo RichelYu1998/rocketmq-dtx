@@ -27,3 +27,5 @@ mybatis-plus:
 logging:
   level:
     cn.tedu.account.mapper: DEBUG
+rocketmq:
+  name-server: 192.168.64.141:9876
